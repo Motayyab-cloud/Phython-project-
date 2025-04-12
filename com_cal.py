@@ -1,6 +1,7 @@
 books = []
 
 def add_book():
+
     title = input("Enter book title: ")
     author = input("Enter author: ")
     books.append({
